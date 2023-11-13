@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* style for div (container) */
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*style for div (myHour)  */
+.myHour {
+  position: relative;
+  display: flex;
+  color: white;
+  font-size: 32px;
+}
+
+/* z_index for groups h1 */
+.z_index {
+  z-index: 5;
+}
+
+/* style for my H1 (PM) */
+.PM {
+  color: #00ffea;
+}
+
+@media (max-width: 572px) {
+  .myHour {
+    font-size: 20px;
+  }
+}
